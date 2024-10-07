@@ -1,7 +1,7 @@
 ---
 
 - name : Installed and Start HTTPD
-  hosts : web
+  hosts : all
   tasks :
           - name : httpd package is present
             yum :
